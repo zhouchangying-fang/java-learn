@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>sping-day1212</module>
+        <module>sping-day1212/02</module>
+        <module>sping-day1212/01</module>
+        <module>sping-day1213/1213-01</module>
     </modules>
 
     <dependencies>
