@@ -13,6 +13,8 @@
         <module>sping-day1212/02</module>
         <module>sping-day1212/01</module>
         <module>sping-day1213/1213-01</module>
+        <module>day1214/121401</module>
+        <module>day1216/day1216-01</module>
     </modules>
 
     <dependencies>
@@ -22,5 +24,19 @@
             <artifactId>spring-webmvc</artifactId>
             <version>5.2.12.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.6</version>
+            <scope>runtime</scope>
+        </dependency>
+
     </dependencies>
 </project>
