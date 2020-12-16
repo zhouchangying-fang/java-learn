@@ -15,6 +15,8 @@
         <module>sping-day1213/1213-01</module>
         <module>day1214/121401</module>
         <module>day1216/day1216-01</module>
+        <module>day1216/1216-02</module>
+        <module>day1216/1216-03</module>
     </modules>
 
     <dependencies>
