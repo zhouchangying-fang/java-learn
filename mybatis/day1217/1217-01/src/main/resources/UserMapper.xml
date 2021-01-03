@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baidu.UserDao">
+    <select id="getUserList" resultType="com.pojo.User">
+        select * from user
+    </select>
+
+    <select id="getUserById" resultType="com.pojo.User" parameterType="int">
+        select * from user where id = #{id}
+    </select>
+
+    <insert id="addUser" parameterType="com.pojo.User">
+        insert into user (name,age) values (#{name},#{age})
+    </insert>
+
+    <update id="updateUser" parameterType="com.pojo.User" >
+        update user set age = #{age} where id = #{id}
+    </update>
+
+    <delete id="deleteUser" parameterType="int">
+        delete from user where id = #{id}
+    </delete>
+
+    <select id="mapSelect" parameterType="map" resultType="com.pojo.User">
+        select * from user where name = #{name} and age = #{age}
+    </select>
+</mapper>
